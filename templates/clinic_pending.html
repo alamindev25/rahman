@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clinic Registration Pending</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background:#f5f5f5; padding:20px;">
+
+<div style="max-width:600px;margin:auto;background:white;padding:30px;border-radius:10px;">
+
+    <h2 style="color:#204452;">
+        Clinic Registration Submitted
+    </h2>
+
+
+    <p>
+        Hello {{ owner_email }},
+    </p>
+
+
+    <p>
+        Your clinic registration has been submitted successfully.
+    </p>
+
+
+    <h3>Clinic Information</h3>
+
+    <p>
+        <b>Clinic Name:</b> {{ clinic_name }}
+    </p>
+
+    <p>
+        <b>Phone:</b> {{ phone }}
+    </p>
+
+    <p>
+        <b>Address:</b> {{ address }}
+    </p>
+
+
+    <div style="
+        background:#fff3cd;
+        padding:15px;
+        border-radius:5px;
+        margin-top:20px;
+    ">
+
+        <b>Status:</b> Pending
+
+        <p>
+            Please wait. Our admin team will review your clinic
+            registration.
+        </p>
+
+    </div>
+
+
+    <p>
+        Thank you.
+    </p>
+
+
+</div>
+
+</body>
+</html>

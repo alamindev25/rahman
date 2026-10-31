@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<body style="font-family:Arial;background:#f5f5f5;padding:20px;">
+
+
+<div style="max-width:600px;background:white;padding:30px;margin:auto;border-radius:10px;">
+
+
+<h2 style="color:#dc3545;">
+Clinic Registration Rejected
+</h2>
+
+
+<p>
+Hello {{ owner_email }},
+</p>
+
+
+<p>
+We regret to inform you that your clinic registration has been rejected.
+</p>
+
+
+<h3>Clinic Information</h3>
+
+
+<p>
+<b>Clinic Name:</b>
+{{ clinic_name }}
+</p>
+
+
+
+<div style="
+background:#f8d7da;
+padding:15px;
+border-radius:5px;
+">
+
+
+<b>Reason:</b>
+
+<p>
+{{ reason }}
+</p>
+
+
+</div>
+
+
+<p>
+Please update your information and submit again.
+</p>
+
+
+</div>
+
+
+</body>
+</html>

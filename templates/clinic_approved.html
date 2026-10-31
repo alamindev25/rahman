@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family:Arial, sans-serif; background:#f5f5f5; padding:20px;">
+
+<div style="max-width:600px; background:white; padding:30px; margin:auto; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+
+    <h2 style="color:#28a745; margin-top:0;">
+        Clinic Approved Successfully
+    </h2>
+
+    <p>Hello {{ owner_email }},</p>
+
+    <p>Congratulations!</p>
+
+    <p>
+        Your clinic <b>{{ clinic_name }}</b> has been approved by our admin team.
+    </p>
+
+    <div style="background:#d4edda; color:#155724; padding:15px; border-radius:5px; margin:20px 0;">
+        <b>Status:</b> Approved
+    </div>
+
+    <p>
+        You can now log in to access your clinic dashboard and start managing your clinic profile, appointments, and services.
+    </p>
+
+    <div style="text-align:center; margin:30px 0;">
+        <a href="{{ login_url }}" style="background-color:#007bff; color:#ffffff; padding:12px 28px; text-decoration:none; font-weight:bold; border-radius:5px; display:inline-block; font-size:16px;">
+            Click Here to Login
+        </a>
+    </div>
+
+    <p style="font-size:13px; color:#666666; word-break:break-all;">
+        If the button above does not work, copy and paste this link into your web browser:<br>
+        <a href="{{ login_url }}" style="color:#007bff;">{{ login_url }}</a>
+    </p>
+
+    <br>
+    <p>Thank you,<br><b>MedBook Team</b></p>
+
+</div>
+
+</body>
+</html>
