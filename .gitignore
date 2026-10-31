@@ -202,6 +202,8 @@ __marimo__/
 .streamlit/secrets.toml
 staticfiles/
 serviceAccountKey.json
-.env
 # media/
 branch_structure.json
+temp_interactive_push.bat
+config.bat
+node_modules
